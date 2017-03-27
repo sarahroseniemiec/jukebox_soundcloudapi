@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
     <script src="https://use.fontawesome.com/4d46b4fd5c.js"></script>
-    <link rel="icon" href="record-icon.png">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <title>Jukebox</title>
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+
   </head>
   <body>
     <div id="main">
@@ -17,6 +18,10 @@
     <div class="bottombar">
       <div id="titlespot"> </div>
       <div id="artistspot"> </div>
+      <div id="descriptionspot"> </div>
+      <img id="artworkspot" src="https://i1.sndcdn.com/artworks-000105622717-ad46op-large.jpg" alt="">
+
+      </div>
       <div class="icons">
         <a href="#" id="back"><i class="fa fa-backward" aria-hidden="true"></i></a>
         <a href="#" id="pause"><i class="fa fa-pause" aria-hidden="true"></i></a>
@@ -25,15 +30,17 @@
         <a href="#" id="next"><i class="fa fa-forward" aria-hidden="true"></i></a>
       </div>
     </div>
-    <h2> Add your own song to the playlist!</h2>
+    <!-- <h2> Add your own song to the playlist!</h2>
     <form action="index.html" method="post">
       <input id="songfield" type="mp3" name="" value="" placeholder="yoursong.mp3">
       <input id="artistfield" type="text" name="" value="" placeholder="artist">
       <input id="titlefield" type="text" name="" value="" placeholder="title">
       <button id="newsong" type="button" name="button">add song</button>
-    </form>
+    </form> -->
 
     <script type="text/javascript" src="main.js">
     </script>
+
+
   </body>
 </html>
